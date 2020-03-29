@@ -12,22 +12,10 @@ public class Main {
 	public static void main(String[] args) {
 	
 		
-		runPrimitiveBaseOrderSample();
-		
-		System.out.println("-----------------------------");
 		
 		runObjectBaseOrderSample();
 		
-		System.out.println("-----------------------------");
 		
-		// --------------------
-		// Doğal sıralama örnekleri
-		
-		runStringList();
-		
-		System.out.println("-----------------------------");
-		
-		runIntegerList();
 		
 	}
 	
@@ -111,19 +99,19 @@ public class Main {
 		double price2 = 90.3;
 		
 		// Eğer price1 > price2 ise 1 döndürür.
-		System.out.println(Double.compare(price1, price2));	
+		System.out.println(   Double.compare(price1, price2)   );	
 		
 		
 		int age1 = 21;
 		int age2 = 34;
 		// Eğer age1 < age2 ise -1 döndürür.
-		System.out.println(Integer.compare(age1, age2));
+		System.out.println(  Integer.compare(age1, age2)  );
 		
 		
 		long pageCount1 = 1000;
 		long pageCount2 = 1000;
 		// Eğer pageCount1 == pageCount2 ise 0 döndürür.
-		System.out.println(Long.compare(pageCount1, pageCount2));
+		System.out.println(  Long.compare(pageCount1, pageCount2));
 	}
 	
 	public static void runObjectBaseOrderSample() {

@@ -32,6 +32,8 @@ public class BookPublisherComparator implements Comparator<Book> {
 			// fakat çarpma işlemi işlemcide ciddi bir maliyet.
 			// Bu nedenle ilk derslerde öğrendiğimiz bitwise operatörleri kullanarak, bir sayının negatifini alıyoruz.
 			
+			// orderResult = -1 * orderResult;
+			
 			orderResult = ~(orderResult - 1);
 		}
 		
